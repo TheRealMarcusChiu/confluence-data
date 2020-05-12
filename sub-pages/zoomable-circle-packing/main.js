@@ -1,4 +1,4 @@
-fetch('data/confluence-data.json')
+fetch('../../assets/data/confluence-data.json')
     .then(response => response.json())
     .then(data => {
         const width = 932;
