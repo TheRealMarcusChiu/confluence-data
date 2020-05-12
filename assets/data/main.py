@@ -13,7 +13,7 @@ def parse(s):
         n['children'].append(parse(lu_tag))
 
     if len(n['children']) == 0:
-        n['value'] = 10
+        n['value'] = 1
 
     return n
 
