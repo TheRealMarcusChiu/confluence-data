@@ -1,0 +1,5 @@
+- confluence-data.xml is a sub-html of http://confluence.marcuschiu.com/spaces/exportspacexml.action?key=NOT
+- choose custom export
+- open developer tools
+- find 'content-tree-node'
+- extract html
