@@ -2,4 +2,5 @@
 - choose custom export
 - open developer tools
 - find 'content-tree-node'
-- extract html
+- extract html into confluence-data.xml
+- python main.py

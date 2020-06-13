@@ -3,7 +3,7 @@ fetch('../../assets/data/confluence-data.json')
     .then(data => {
         var width = 2000;
         var dx = 10;
-        var dy = width / 12;
+        var dy = width / 15;
         var diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
         var tree = d3.tree().nodeSize([dx, dy]);
         var margin = ({top: 10, right: 120, bottom: 10, left: 40});
