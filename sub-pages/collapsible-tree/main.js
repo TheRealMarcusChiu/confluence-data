@@ -15,7 +15,7 @@ fetch('../../assets/data/confluence-data.json')
           root.descendants().forEach((d, i) => {
             d.id = i;
             d._children = d.children;
-            if (d.depth && d.data.name.length !== 7) d.children = null;
+//            if (d.depth && d.data.name.length !== 7) d.children = null;
           });
 
           const svg = d3.select("svg")
